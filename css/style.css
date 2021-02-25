@@ -1,0 +1,116 @@
+*{
+
+    box-sizing:border-box;
+  }
+  
+  
+   body {
+      width: 960px;
+      margin: auto;
+      line-height: 1.5;
+      font-family: 'Source Sans Pro', sans-serif;
+      
+    }
+
+   
+    header
+    {
+
+    height: 90px;
+    background:white;
+    
+    }
+  
+   header nav 
+   {
+    float: left;
+    margin: 15px;
+
+   }
+   header nav:nth-child(2) p {
+
+    line-height: 0px;
+    margin-left: -25px;
+
+   }
+
+   header div
+   {
+    float: right;
+    margin: 30px;
+
+   }
+
+   hr
+   {
+    height: 20px;
+    width :100%;
+    color: gray;
+    background-color:transparent;
+    background-image:url('./images/hr-img.png') ;
+    background-size:15px ;
+    background-repeat: repeat-x;
+    border: none;
+
+   }
+
+   main nav 
+   {
+    line-height: 0px;
+
+   }
+
+   main nav h1 
+   {
+    margin-top: 70px;
+
+   }
+
+   main nav img 
+   {
+   float:right;
+   margin-top: -15px;
+   margin-right: 35px;
+   
+
+   }
+
+   main nav h6
+   {
+     float: right;
+     margin-top: -10px;
+    
+   }
+
+   .choco-pizza
+   {
+     width: 100%;
+     margin-top: 15px ;
+    
+   }
+
+   article {
+
+    text-indent: 30px;
+    
+   }
+
+   /*.list 
+   {
+     margin-top: 15px;
+   }*/
+
+   #addList
+   {
+    background-image: url('./images/list-bg.png');
+    height: 200px;
+    margin-bottom: 30px;
+  
+   }
+
+   .second
+   {
+    float: right;
+    margin-top: -120px;
+    
+   }
