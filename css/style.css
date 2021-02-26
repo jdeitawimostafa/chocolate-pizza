@@ -41,18 +41,16 @@
 
    }
 
-   hr
+  /* hr 
    {
     height: 20px;
     width :100%;
     color: gray;
     background-color:transparent;
-    background-image:url('./images/hr-img.png') ;
+    background-image:url("./images/list-bg.png") ;
     background-size:15px ;
-    background-repeat: repeat-x;
-    border: none;
-
-   }
+        
+   } */
 
    main nav 
    {
@@ -102,7 +100,7 @@
 
    #addList
    {
-    background-image: url('./images/list-bg.png');
+    background-image: url('images/list-bg.png');
     height: 200px;
     margin-bottom: 30px;
   
@@ -111,6 +109,56 @@
    .second
    {
     float: right;
-    margin-top: -120px;
+    margin-top: -140px;
     
+   }
+   
+   main section h3{
+     float: right;
+     margin-right: 700px;
+     margin-top: -3px;
+   }
+
+   main section p {
+     float: right;
+     margin-top: -40px;
+     margin-right: 310px;
+   }
+   main section {
+     margin-top: 30px;
+   }
+   main section button {
+     height: 50px;
+     background-color: rgba(255, 0, 0, 0.753);
+     float: right;
+     margin-top: -90px;
+   }
+
+   .div-hr{
+text-align: center;
+margin-top: 50px;
+   }
+
+   .div-hr img{
+  margin-top: -150px;
+   }
+
+   footer p {
+     text-align: center;
+   }
+
+   .hr-1 {
+    height: 20px;
+    width :100%;
+    background-color:gray;
+    background-image:url("list-bg.png") ;
+    background-size:15px ;
+   }
+
+   .hr-2 {
+    height: 20px;
+    width :100%;
+    background-color:gray;
+    background-image:url("list-bg.png") ;
+    background-size:15px ; 
    }
