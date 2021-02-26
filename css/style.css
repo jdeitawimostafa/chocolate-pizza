@@ -164,3 +164,23 @@
     background-image:url("list-bg.png") ;
     background-size:15px ; 
    }
+
+   .Van
+   {
+     margin-top: 25px;
+  }
+  .Van img
+  {
+    width: 60px;
+    height: 60px;
+  }
+  .Van div {
+    margin-top: -90px;
+    margin-left: 70px;
+    }
+  .Van button {
+  font-size: 20px;
+  height: 50px;
+  background-color: #8F432C;
+  color: white;
+  }
